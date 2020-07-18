@@ -1,4 +1,4 @@
-# Auto-cam-movement-detect
+# Auto-cam-movement-detection
 
 Background subtraction is the basis for many computer vision tasks like motion detection, Invisibility cloak, etc. . It is a simple concept which comes with a drawback. Background subtraction works only with static background images/frames, that means, if you change the position of your camera it'll fail or gives very bad results. One possible way to overcome this is to initialize the background frame to a new static frame whenever a motion in the camera is detected. 
 
