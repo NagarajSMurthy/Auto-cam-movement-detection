@@ -4,6 +4,8 @@ Background subtraction is the basis for many computer vision tasks like motion d
 
 Detecting the movement of the camera automatically is not a simple task for obvious reasons. Here, I have made an atempt to detect the movement of the camera either external or inbuilt using the concept of optical flow. 
 
+![](camera_movement.gif)
+
 Steps:
 1. The features are selected using the ShiTomasi corner detection (http://www.ai.mit.edu/courses/6.891/handouts/shi94good.pdf). These features are selected only in the border regions assuming that the foreground object very rarely occupies the border region, in other words, the border region gives features belonging to the background region. 
 2. These feature points are given to the Lucas-Kanade optical flow to track the points.
